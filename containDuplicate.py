@@ -6,3 +6,4 @@ def containDuplicate(nums):
         return False
     else:
         return True
+
