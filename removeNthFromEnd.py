@@ -11,12 +11,16 @@ class Solution:
         left = dummy
         right = head
 
+        # set the right pointer corresponding with n
         while n > 0 and right:
             right = right.next
             n -= 1
-
+        
+        # move two pointers together
         while right:
             left = left.next
             right = right.next
+
+        # remove(skip) Nth element 
         left.next = left.next.next
         return dummy.next
