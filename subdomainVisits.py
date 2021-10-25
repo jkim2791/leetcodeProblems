@@ -1,4 +1,5 @@
 ## https://leetcode.com/problems/subdomain-visit-count/
+from typing import Collection, List
 
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:

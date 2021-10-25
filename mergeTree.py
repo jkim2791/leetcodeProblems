@@ -19,3 +19,4 @@ class Solution:
         root.right = self.mergeTree(t1.right if t1 else None, t2.right if t2 else None)
 
         return root        
+        

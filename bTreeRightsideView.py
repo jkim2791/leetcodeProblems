@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/binary-tree-right-side-view/
+
 from typing import Collection, List
 import collections
 
